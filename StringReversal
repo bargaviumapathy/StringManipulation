@@ -1,0 +1,17 @@
+
+ 
+class StringReversal {
+  
+  public static void main(String[] args) {
+    
+    String input = "This is string reversal";
+   
+      for(int j= input.length()-1; j>=0; j--){
+        System.out.print(input.charAt(j));
+      }
+      
+      System.out.print("\t");   
+   
+  }
+}
+
